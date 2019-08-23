@@ -1,4 +1,4 @@
-let verificarPI = function (num:number):void{
+/*let verificarPI = function (num:number):void{
 
     if(num % 2 == 0){
         console.log("O número é par.")
@@ -7,5 +7,15 @@ let verificarPI = function (num:number):void{
         console.log("O número é impar.")
     }
 }
+*/
 
-verificarPI(8)
+let verificarPI = function (num:number):boolean{
+
+    if(num % 2 == 0){
+       return true
+    }
+    else {
+        return false
+    }
+}
+console.log(verificarPI(8))
