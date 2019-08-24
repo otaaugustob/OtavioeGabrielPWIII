@@ -7,7 +7,7 @@ var Piscina = /** @class */ (function () {
         return this.diametro / 2;
     };
     Piscina.prototype.area = function () {
-        return (this.raio() * this.raio()) * 3.14;
+        return (this.raio() * this.raio()) * 3.1415926;
     };
     Piscina.prototype.custoTotal = function () {
         return this.area() * this.custoConstrucao;
@@ -15,3 +15,4 @@ var Piscina = /** @class */ (function () {
     return Piscina;
 }());
 exports.Piscina = Piscina;
+//export {Piscina as piscina}
