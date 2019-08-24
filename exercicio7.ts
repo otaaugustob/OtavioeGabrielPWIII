@@ -1,3 +1,3 @@
-export let fcubo = (num:number) =>  num*num*num
+let fcubo = (num:number) =>  num*num*num
 
 console.log(fcubo(5))

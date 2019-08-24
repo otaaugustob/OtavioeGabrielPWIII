@@ -1,4 +1,2 @@
-"use strict";
-exports.__esModule = true;
-exports.fcubo = function (num) { return num * num * num; };
-console.log(exports.fcubo(5));
+var fcubo = function (num) { return num * num * num; };
+console.log(fcubo(5));

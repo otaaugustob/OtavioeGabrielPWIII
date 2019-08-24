@@ -1,4 +1,3 @@
-"use strict";
 /*let verificarPI = function (num:number):void{
 
     if(num % 2 == 0){
@@ -9,8 +8,7 @@
     }
 }
 */
-exports.__esModule = true;
-exports.verificarPI = function (num) {
+var verificarPI = function (num) {
     if (num % 2 == 0) {
         return true;
     }
@@ -18,4 +16,4 @@ exports.verificarPI = function (num) {
         return false;
     }
 };
-console.log(exports.verificarPI(8));
+console.log(verificarPI(8));

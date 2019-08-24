@@ -1,4 +1,4 @@
-export let area = function(compri:number, larg:number):number{
+let area = function(compri:number, larg:number):number{
 
     return compri * larg
 }
