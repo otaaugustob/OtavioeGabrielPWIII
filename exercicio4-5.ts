@@ -9,7 +9,7 @@
 }
 */
 
-let verificarPI = function (num:number):boolean{
+export let verificarPI = function (num:number):boolean{
 
     if(num % 2 == 0){
        return true
